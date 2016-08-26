@@ -3,6 +3,10 @@ h1{color:#8b7e66;
   font-style: normal;
   font:center ;
 }
+.header{position:fixed;
+    bottom:0;
+    width:300px;
+}
  .navig {
     margin-bottom: 15px;
     padding: 10px 25px 10px 25px;
