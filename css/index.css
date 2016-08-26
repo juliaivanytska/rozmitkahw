@@ -1,9 +1,5 @@
 
-.header{position:fixed;
-  top:!important;
-  
-}
- .navig {
+ .navig {position: fixed;
     margin-bottom: 15px;
     padding: 10px 25px 10px 25px;
     background-color: #dff0d8;
