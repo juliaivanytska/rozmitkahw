@@ -21,19 +21,19 @@ margin:0 auto;
 margin: 0 auto;
     width: 1320px;
     height: 800px;
-
 }
 .section3{background:url(fonserv.jpg);
     margin: 0 auto;
     width:1320px;
     height:800px;
-    
 }
 .section4{background:url(online.jpg);
      width:1320px;
      height:800px;
-     opacity:0.6;
-     font color:solid white;
+     opacity:0.9;
+}
+#fontt{color:white;
+    font-size:20px;
 }
 .section5{background-color:#8b8682;
     width:1320px;
@@ -43,6 +43,7 @@ margin: 0 auto;
 .section6{width:1320px;
     height:800px;
 }
+
 h1{color:#fffafa;
   font-size: 30px;
   font-style:normal;
