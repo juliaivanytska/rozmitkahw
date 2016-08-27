@@ -1,10 +1,11 @@
-header{height:70px;
-  background: url(header)
+header{height:60px;
+  background: url(header.jpg)
   position:fixed;
 }
- .navig {
+ .menu {display:inline-block;
     background-color: #dff0d8;
 }
+.section1{background:url(fon.jpg);}
 h1{color:#8b7e66;
   font-size: 35px;
   font-style: normal;
