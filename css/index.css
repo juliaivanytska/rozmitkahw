@@ -1,12 +1,14 @@
-.header {height:60px;
-  background-image:url(rozmitkahw/header.jpg);
+.header {position: fixed;
+    height:60px;
+  background-color: red;
 
 }
  .menu {display:inline-block;
     background-color: #dff0d8;
 }
 .section1{background:url(fon.jpg);
-     height:600px;
+     height:800px;
+
 }
 h1{color:#8b7e66;
   font-size: 35px;
