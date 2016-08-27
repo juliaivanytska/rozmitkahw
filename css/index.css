@@ -1,4 +1,4 @@
-.header {
+.header {position:fixed;
     height:150px;
     width:1320px;
   background:url(header.jpg);
@@ -13,7 +13,6 @@ margin:0 auto;
 
 .nav {width: 20%;
       float: left;
-    
     background-color: #fffff0;
 }
 .section2{background-color:#cdc9c9;
@@ -21,6 +20,7 @@ margin:0 auto;
 margin: 0 auto;
     width: 1320px;
     height: 800px;
+   
 }
 .section3{background:url(serv.jpg);
     margin: 0 auto;
