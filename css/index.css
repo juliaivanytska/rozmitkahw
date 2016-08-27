@@ -16,7 +16,7 @@ margin:0 auto;
     
     background-color: #fffff0;
 }
-.section2{background:url(carsfon.jpg);
+.section2{background-color:#cdc9c9;
      opacity:0.9;
 margin: 0 auto;
     width: 1320px;
@@ -33,11 +33,17 @@ margin: 0 auto;
      width:1320px;
      height:800px;
      opacity:0.6;
-     
+     font color:solid white;
 }
-
-
-h1{color:#8b7e66;
+.section5{background-color:#8b8682;
+    width:1320px;
+    height:800px;
+    font:solid white;
+}
+.section6{width:1320px;
+    height:800px;
+}
+h1{color:#fffafa;
   font-size: 30px;
   font-style:normal;
   font:center ;
