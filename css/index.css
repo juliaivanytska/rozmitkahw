@@ -1,5 +1,5 @@
 .header {position: fixed;
-    height:100px;
+    height:150px;
     width:1320px;
   background:url(header.jpg);
   opacity: 0.8;
@@ -8,9 +8,12 @@ margin:0 auto;
 .section1{background:url(homefon.jpg);
      width:1320px;
      height:800px;
+     margin:0 auto;
      }
 
-.menu {display:inline-block;
+.nav {width: 20%;
+      float: left;
+    
     background-color: #fffff0;
 }
 .section2{background:url(carsfon.jpg);
@@ -18,7 +21,21 @@ margin:0 auto;
 margin: 0 auto;
     width: 1320px;
     height: 800px;
+
 }
+.section3{background:url(fonserv.jpg);
+    margin: 0 auto;
+    width:1320px;
+    height:800px;
+    
+}
+.section4{background:url(online.jpg);
+     width:1320px;
+     height:800px;
+     opacity:0.6;
+     
+}
+
 
 h1{color:#8b7e66;
   font-size: 30px;
@@ -27,9 +44,4 @@ h1{color:#8b7e66;
 }
 
 
-.footer {position: fixed;
-
-opacity: 0.9;
-height:40px;
-width: 1320px;
-background:url(footer.jpg);}
+.footer {clear: both;}
