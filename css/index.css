@@ -1,7 +1,8 @@
-
- .navig {position: fixed;
-    margin-bottom: 15px;
-    padding: 10px 25px 10px 25px;
+head{height:70px;
+  background: url(header)
+  position:fixed;
+}
+ .navig {
     background-color: #dff0d8;
 }
 h1{color:#8b7e66;
