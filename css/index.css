@@ -5,16 +5,17 @@
   opacity: 0.8;
 margin:0 auto;
 }
-img{float:top;
-    margin: 0 0 1em 1em;
-}
- .menu {display:inline-block;
-    background-color: #dff0d8;
-}
 .section1{background:url(homefon.jpg);
      width:1320px;
-     height:2000px;
+     height:800px;
      }
+
+.menu {display:inline-block;
+    background-color: #fffff0;
+}
+.section2{background:url(carsfon.jpg);
+     opacity:0.9;
+margin: 0 auto;}
 h1{color:#8b7e66;
   font-size: 30px;
   font-style:normal;
@@ -24,5 +25,7 @@ h1{color:#8b7e66;
 
 .footer {position: fixed;
     clear:both;
-
-}
+opacity: 0.9;
+height:40px;
+width: 1320px;
+background:url(footer.jpg);}
