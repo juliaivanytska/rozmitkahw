@@ -1,11 +1,13 @@
-header{height:60px;
-  background: url(header.jpg)
-  position:fixed;
+.header {height:60px;
+  background-image:url(rozmitkahw/header.jpg);
+
 }
  .menu {display:inline-block;
     background-color: #dff0d8;
 }
-.section1{background:url(fon.jpg);}
+.section1{background:url(fon.jpg);
+     height:600px;
+}
 h1{color:#8b7e66;
   font-size: 35px;
   font-style: normal;
