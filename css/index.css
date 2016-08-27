@@ -22,7 +22,7 @@ margin: 0 auto;
     width: 1320px;
     height: 800px;
 }
-.section3{background:url(fonserv.jpg);
+.section3{background:url(serv.jpg);
     margin: 0 auto;
     width:1320px;
     height:800px;
@@ -30,7 +30,6 @@ margin: 0 auto;
 .section4{background:url(online.jpg);
      width:1320px;
      height:800px;
-     opacity:0.9;
 }
 #fontt{color: white;
     font-size:20px;
