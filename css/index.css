@@ -15,7 +15,11 @@ margin:0 auto;
 }
 .section2{background:url(carsfon.jpg);
      opacity:0.9;
-margin: 0 auto;}
+margin: 0 auto;
+    width: 1320px;
+    height: 800px;
+}
+
 h1{color:#8b7e66;
   font-size: 30px;
   font-style:normal;
@@ -24,7 +28,7 @@ h1{color:#8b7e66;
 
 
 .footer {position: fixed;
-    clear:both;
+
 opacity: 0.9;
 height:40px;
 width: 1320px;
