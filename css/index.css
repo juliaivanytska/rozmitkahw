@@ -1,24 +1,28 @@
 .header {position: fixed;
-    height:160px;
-    width:1300px;
-  background-color: red;
-  opacity: 0.7;
+    height:100px;
+    width:1320px;
+  background:url(header.jpg);
+  opacity: 0.8;
 margin:0 auto;
+}
+img{float:top;
+    margin: 0 0 1em 1em;
 }
  .menu {display:inline-block;
     background-color: #dff0d8;
 }
-.section1{background:url(fon.jpg);
-     width:1300px;
+.section1{background:url(homefon.jpg);
+     width:1320px;
      height:2000px;
      }
 h1{color:#8b7e66;
-  font-size: 35px;
-  font-style: normal;
+  font-size: 30px;
+  font-style:normal;
   font:center ;
 }
 
 
 .footer {position: fixed;
     clear:both;
+
 }
