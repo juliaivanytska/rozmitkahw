@@ -1,46 +1,47 @@
 .header {position:fixed;
-    height:150px;
-    width:1300px;
-  background:url(header.jpg);
-  opacity: 0.8;
-margin:0 auto;
+         height:150px;
+         width:1350px;
+         background:url(header.jpg);
+         opacity: 0.8;
+         margin:0 auto;    
+         left: 0;
+         top: 0;
+         z-index: 120;
+         direction: ltr;
 }
 .section1{background:url(homefon.jpg) no-repeat;
-     width:1300px;
+     width:1350px;
      height:800px;
      margin:0 auto;
-     }
+     left: 0;
+     top: 0;
+     z-index: 120;
+     direction: ltr;}
 
-.nav {position: relative;
-  display: inline-block;
-  width: 10em;
-  height: 2.5em;
-  line-height: 2.5em;
-  vertical-align: middle;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 0 -1px 1px #777;
-  color: #fff;
-  outline: none;
-  border: 2px solid #F64C2B;
-  border-radius: 5px;
-  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
-  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02
+.nav { width: 16%;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'FuturaBook';
+    opacity: .6;
+    -webkit-transition: opacity .6s;
+    transition: opacity .6s
 }
 .section2{background:url(fo.jpg);
      opacity:0.9;
 margin: 0 auto;
-    width: 1300px;
+    width: 1350px;
     height: 800px;
    
 }
 .section3{background:url(serv.jpg);
     margin: 0 auto;
-    width:1300px;
+    width:1350px;
     height:800px;
 }
 .section4{background:url(online.jpg);
-     width:1300px;
+     width:1350px;
      height:800px;
 }
 #fontt{color: white;
@@ -48,11 +49,11 @@ margin: 0 auto;
     
 }
 .section5{background:url(about.jpg);
-    width:1300px;
+    width:1350px;
     height:800px;
     font:solid white;
 }
-.section6{width:1300px;
+.section6{width:1350px;
     height:800px;
 }
 
@@ -63,4 +64,6 @@ h1{color:#fffafa;
 }
 
 
-.footer {clear: both;}
+.footer {clear: both;
+    
+}
