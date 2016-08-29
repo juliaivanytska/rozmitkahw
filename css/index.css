@@ -5,15 +5,27 @@
   opacity: 0.8;
 margin:0 auto;
 }
-.section1{background:url(homefon.jpg);
+.section1{background:url(homefon.jpg) no-repeat;
      width:1300px;
      height:800px;
      margin:0 auto;
      }
 
-.nav {width: 20%;
-      float: left;
-    background-color: #fffff0;
+.nav {position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02
 }
 .section2{background:url(fo.jpg);
      opacity:0.9;
