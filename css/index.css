@@ -1,6 +1,6 @@
 .header {position:fixed;
          height:150px;
-         width:1350px;
+         width:100%;
          background:url(header.jpg);
          opacity: 0.8;
          margin:0 auto;    
@@ -9,8 +9,12 @@
          z-index: 120;
          direction: ltr;
 }
+.nav { width: 16%;
+    display: inline-block;
+    background-color: red;
+}
 .section1{background:url(homefon.jpg) no-repeat;
-     width:1350px;
+     width:100%;
      height:800px;
      margin:0 auto;
      left: 0;
@@ -18,30 +22,21 @@
      z-index: 120;
      direction: ltr;}
 
-.nav { width: 16%;
-    display: inline-block;
-    margin-top: 40px;
-    font-size: 18px;
-    color: #fff;
-    font-family: 'FuturaBook';
-    opacity: .6;
-    -webkit-transition: opacity .6s;
-    transition: opacity .6s
-}
+
 .section2{background:url(fo.jpg);
      opacity:0.9;
 margin: 0 auto;
-    width: 1350px;
+    width: 100%;
     height: 800px;
    
 }
 .section3{background:url(serv.jpg);
     margin: 0 auto;
-    width:1350px;
+    width:100%;
     height:800px;
 }
 .section4{background:url(online.jpg);
-     width:1350px;
+     width:100%;
      height:800px;
 }
 #fontt{color: white;
@@ -49,7 +44,7 @@ margin: 0 auto;
     
 }
 .section5{background:url(about.jpg);
-    width:1350px;
+    width:100%;
     height:800px;
     font:solid white;
 }
