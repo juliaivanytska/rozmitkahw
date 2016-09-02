@@ -58,7 +58,12 @@ h1{color:#fffafa;
   font-style:normal;
   
 }
-
+.textabout{text-align:center;
+    vertical-align: middle;
+    color:white;
+    font-size:36px;
+    font-family: Arial serif;
+}
 
 .footer {clear: both;
     
