@@ -20,8 +20,8 @@ box-shadow: 1px 1px 3px #999999;}
     
     
 }
-.main{background-image:url(homefon.jpg) no-repeat;
-      background-position: 0 top;
+.main{
+    background-image:url(homefon.jpg) no-repeat;
      width:100%;
      height:800px;
      margin:0 auto;
