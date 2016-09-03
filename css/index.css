@@ -11,14 +11,23 @@
          direction: ltr;
 }
 
-.nav { width: 16%;
-    display: inline-block;
-     box-shadow: 1px 1px 3px #999999;
-     text-align: left;
-     vertical-align: middle;
-     margin: 20px 20px;
-     color: white;
-     background: #3498db;
+.nav { 
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+      margin: 25px 25px;
+      color: #fffff0;
+      background: #8b814c;
+      font-weight: bold;
+      border-radius:20px;
+      border-color: black;
+      box-shadow: 1px 1px 3px #999999;
+      height: 33px;
+      width: 110px;
+      margin-left: 100px;
+      margin-top: 25px;
+      font-size: 20px;
+      min-width: 500px;
 }
 .main {
     background:url(188.jpg) no-repeat;
