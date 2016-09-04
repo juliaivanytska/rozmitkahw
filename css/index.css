@@ -4,16 +4,17 @@
     line-height: 1.4;
 }
 
-.header {
+.header {margin-top:15px;
     position: fixed;
     height: 150px;
     width: 100%;
     background: url(header2.jpg) no-repeat top;
     opacity: 0.8;
+    z-index: 120;
 }
 
-.nav {
-    margin: 0 auto;
+.nav {text-align: center;
+
     padding: 0;
     list-style: none;
     border: 1px solid #e5e5e5;
@@ -29,7 +30,7 @@
 .auto {
     background: url(dfg.jpg) no-repeat;
     opacity: 0.9;
-    margin: 0 auto;
+    
     height: 800;
     width: 1300;
 }
@@ -45,7 +46,7 @@
 
 .online {
     background: url(zamov.jpg) no-repeat;
-    margin: 0 auto;
+    
     height: 800;
     width: 1300;
 }
