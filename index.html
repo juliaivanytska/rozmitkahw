@@ -1,58 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-ua">
+
 <head>
     <meta charset="UTF-8">
     <title>Dream for cars</title>
     <link rel="stylesheet" href="css/index.css">
-   <style type="text/css">
-        ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: inline;}
-</style>
 </head>
+
 <body>
     <header>
-   <div class="main">
-           <h1>Dream</h1>
-           <h3><center>Ми допоможемо втілити Вашу мрію в життя!</center></h3>
-          <center>
-        <nav class="menu">
-            <a href="#Головна">Головна</a>
-            <a href="#Автосалон">Автосалон</a>
-            <a href="#Автосервіс">Автосервіс</a>
-            <a  href="#Про нас">Про нас</a>
-            <a  href="#Контакти">Контакти</a>
-            
-        </nav>
-    </center>
-            </div>
+        <div class="main">
+            <h1>Dream</h1>
+            <h3>Ми допоможемо втілити Вашу мрію в життя!</h3>
+
+            <nav class="menu">
+                <a href="#golovna">Головна</a>
+                <a href="#showroom">Автосалон</a>
+                <a href="#autoservis">Автосервіс</a>
+                <a href="#about">Про нас</a>
+                <a href="#contacts">Контакти</a>
+
+            </nav>
+
+        </div>
     </header>
-    
+
     <section class="main">
-    <h6><center id="Головна"></center></h6>
-    
-   </section>
-   
-   
-   <section class="auto">
-   <h1 id="Автосалон"><center>Автосалон</center></h1>
-    
-       <center> <img src="1.jpg" width="280" height="200px">
-        <img src="2.jpg" width="280" height="200px">
-        <img src="3.jpg "width="280" height="200px"><br></center>
-        <center> <img src="4.jpg" width="280" height="200px">
-        <img src="7.jpg" width="280" height="200px">
-        <img src="6.jpg" width="280" height="200px"></center>
-     
-     </section>
-    
+        <h6><div id="golovna"></div></h6>
+
+    </section>
+
+
+    <section class="auto">
+        <h1 id="showroom">Автосалон</h1>
+
+         <img src="1.jpg" width="280" height="200px">
+            <img src="2.jpg" width="280" height="200px">
+            <img src="3.jpg " width="280" height="200px"><br>
+      <img src="4.jpg" width="280" height="200px">
+            <img src="7.jpg" width="280" height="200px">
+            <img src="6.jpg" width="280" height="200px">
+
+    </section>
+
     <section class="autoserv">
-    <h1 id="Автосервіс"><center>Автосервіс</center></h1>
-    <select name="Ходова">
+        <h1 id="autoservis">Автосервіс</h1>
+        <select name="Ходова">
         <option value>Діагностика ходової</option>
         <option value=>Ремонт ходової</option>
         <option value=>Шиномонтаж</option>
@@ -60,7 +53,7 @@ li {
         <option value=></option>
         <option value=></option>
     </select>
-    <select name="Автоелектрик">
+        <select name="Автоелектрик">
         <option value="computer diagnostic">Компютерна діагностика</option>
         <option value=>Ремонт автоелектрики</option>
         <option value=>Регулювання світла фар</option>
@@ -68,7 +61,7 @@ li {
         <option value=></option>
         <option value=></option>
     </select>
-    <select name="Техобслуговування">
+        <select name="Техобслуговування">
         <option value="computer diagnostic">Заміна масла</option>
         <option value=>Заміна фільтра</option>
         <option value=>Заміна та перевірка свічок запалювання</option>
@@ -76,7 +69,7 @@ li {
         <option value=></option>
         <option value=></option>
     </select>
-     <select name="Додаткові послуги">
+        <select name="Додаткові послуги">
         <option value="computer diagnostic">Заміна масла</option>
         <option value=>Заміна фільтра</option>
         <option value=>Заміна та перевірка свічок запалювання</option>
@@ -84,63 +77,63 @@ li {
         <option value=></option>
         <option value=></option
     </select>
-    </section><br><hr>
-     
-     
-     
-     <section class="online" >
-     <h1><center><p>Онлайн замовлення</p><center></h1>
-     <center>
-    <form action="https://formspree.io/juliaivanytska15@gmail.com" method="POST"
-         class="right-column">
-        <p><label for="marka">Марка авто*</label>
-        <input type="text" name="marka" id="marka" required></p>
-        <p><label for="model">Модель авто*</label>
-        <input type="text" name="model" id="model" required></p>
-        <p><label for="year">Рік випуску*</label>
-        <input type="number" name="year" id="year" required></p>
-        <p><label for="v3">Об'єм двигуна*</label>
-        <input type="text" name="v3" id="v3" required></p>
-       <p><label>Коробка передач*</label>
-           <select required>
+    </section><br>
+    <hr>
+
+
+
+    <section class="online">
+        <h1><p>Онлайн замовлення</p></h1>
+        <form action="https://formspree.io/juliaivanytska15@gmail.com" method="POST" class="right-column">
+            <p><label for="marka">Марка авто*</label>
+                <input type="text" name="marka" id="marka" required></p>
+            <p><label for="model">Модель авто*</label>
+                <input type="text" name="model" id="model" required></p>
+            <p><label for="year">Рік випуску*</label>
+                <input type="number" name="year" id="year" required></p>
+            <p><label for="v3">Об'єм двигуна*</label>
+                <input type="text" name="v3" id="v3" required></p>
+            <p><label>Коробка передач*</label>
+                <select required>
                <option>Механічна</option>
                <option>Автомат</option>
            </select><br>
-         <p><label for="name"> Ім'я користувача:</label> 
-         <input type="text" name="name" id="name" required="">
-       </p>
-       <p>
-         <label for="email">Email:*</label>
-         <input type="email" name="email" id="email" required>
-       </p>
-         <label for="phone">Номер телефону*(+380)  </label>
-         <input type="phone" name="phone" id="phone" required="">
-       <br>
-        <p><label for="wish">Додаткові побажання</label>
-        <textarea name="wish" id="wish">  </textarea></p>
-        <input type="submit" value="Зарезервувати">
-    </form></section>
-    
+                <p><label for="name"> Ім'я користувача:</label>
+                    <input type="text" name="name" id="name" required="">
+                </p>
+                <p>
+                    <label for="email">Email:*</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <label for="phone">Номер телефону*(+380)  </label>
+                <input type="phone" name="phone" id="phone" required="">
+                <br>
+                <p><label for="wish">Додаткові побажання</label>
+                    <textarea name="wish" id="wish">  </textarea></p>
+                <input type="submit" value="Зарезервувати">
+        </form>
+    </section>
+
     <section class="about">
-   <h1 id="Про нас">Про нас<center></center></h1>
-     <p> " DREAM " - молода команда професіоналів, 
-      <br>яка допоможе втілити Ваші мрії у життя !
-      <br> Подорожуйте впевнено власним автомобілем,а " DREAM " попіклується про Ваш комфорт.<br>
-      Ми пропонуємо високоякісні послуги на будь-який гаманець і бажання!
-   </p>
-   </section>
- <br>
+        <h1 id="about">Про нас</h1>
+        <p> " DREAM " - молода команда професіоналів,
+            <br>яка допоможе втілити Ваші мрії у життя !
+            <br> Подорожуйте впевнено власним автомобілем,а " DREAM " попіклується про Ваш комфорт.<br> Ми пропонуємо високоякісні послуги на будь-який гаманець і бажання!
+        </p>
+    </section>
+    <br>
 
 
- <section class="contact">
- <h1><center id="Контакти">Контакти</center></center></h1>
+    <section class="contact">
+        <h1><div id="contacts">Контакти</<div></h1>
 
-  <text class="left-column">+38067*******</text>
-  <text class="right-column"><p>Місто:</p>
-  <p>Вулиця:</p><text><br><hr>
+        <text class="left-column">+38067*******</text>
+        <text class="right-column"><p>Місто:</p>
+  <p>Вулиця:</p><text><br>
   </section>
   
-    <p><footer align="right" ><a href="https://www.facebook.com/julia.ivanytska">Site designed & developed by Yuliya Ivanytska
+    <p><footer align="right" ><a href="https://www.facebook.com/julia.ivanytska">
+        Site designed & developed by Yuliya Ivanytska
         </footer></p>
 </body>
 </html>
