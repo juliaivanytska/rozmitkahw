@@ -1,64 +1,76 @@
-.body {
-    font-family: "Arial", sans-serif;
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-.header {margin-top:15px;
-    position: fixed;
-    height: 150px;
-    width: 100%;
-    background: url(header2.jpg) no-repeat top;
-    opacity: 0.8;
-    z-index: 120;
-}
-
-.nav {text-align: center;
-
-    padding: 0;
-    list-style: none;
-    border: 1px solid #e5e5e5;
-}
-
-.main {
-    background: url(golovna.jpg) no-repeat;
-    margin: 0 auto;
-    height: 800;
-    width: 1300;
-}
-
-.auto {
-    background: url(dfg.jpg) no-repeat;
-    opacity: 0.9;
+body{background:#698b69;
     
-    height: 800;
-    width: 1300;
 }
-
-.autoserv {
-    background: url(about.jpg) no-repeat;
-    font-size: 24;
-    font-style: normal;
-    color: white;
-    height: 800;
-    width: 1300;
+.head_site{background:#9bcd9b;
+           z-index: 120;
+           position: fixed;
+           width: 100%;
+           height:17%;
+           color:white;
+           top: 0;
+           opacity: 0.9;
+           clear: both;
+           list-style-type: none;
 }
-
-.online {
-    background: url(zamov.jpg) no-repeat;
+#slog{text-align:right;
+    margin:10;
+}
+nav a:link{
+    background:#fff0f5;
+    font-size:18px;
+    font-family:serif;
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 5, 0.2);
+    transition-duration: 300ms;
+   color:white;
+   text-decoration:none;
+   margin:11px 10px 0 0;
+}
+nav a:hover{
+    background-color:#ffffe0;
+    color:#2e8b57;
+    transform: rotate(40deg);;
+    }
     
-    height: 800;
-    width: 1300;
-}
 
-.contact {
-    height: 800;
-    width: 1300;
-    background-image: url(conttt.jpg);
-}
 
-.footer {
-    min-height: 50px;
-    color: blue;
-    background: #34495e;
+.main{background:url(golovna.jpg) no-repeat;
+    width:1280px;
+    height:700px;
+    top:0;
+    clear:both;
+    list-style-type:none;
+}
+.auto{background:url(auto.jpg) no-repeat;
+    width:1280px;
+    height:700px;
+}
+.about{background:url(about.jpg)no-repeat;
+text-align:center;
+    width:1280px;
+    height:700px;
+    
+}
+.autoserv{background:url(dfg.jpg)no-repeat;
+    width:1320px;
+    height:700px;
+}
+.zamov{width:1280px;
+    height:700px;
+    background:url(zamov.jpg);
+    text-align:center;
+    color:white;
+}
+.zamov input{background:#f5fffa;
+color:#838b83;
+    border-radius:3px;
+    font-size:20px;
+    font-family:Arrial serif;
+}
+.contact{background:url(conttt.jpg) no-repeat;
+    width:1280px;
+    height:700px;
+    color:white;
+    text-align:center;
 }
