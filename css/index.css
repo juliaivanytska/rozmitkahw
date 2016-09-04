@@ -1,0 +1,63 @@
+.body {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    background: url(header2.jpg) no-repeat top;
+    opacity: 0.8;
+}
+
+.nav {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #e5e5e5;
+}
+
+.main {
+    background: url(golovna.jpg) no-repeat;
+    margin: 0 auto;
+    height: 800;
+    width: 1300;
+}
+
+.auto {
+    background: url(dfg.jpg) no-repeat;
+    opacity: 0.9;
+    margin: 0 auto;
+    height: 800;
+    width: 1300;
+}
+
+.autoserv {
+    background: url(about.jpg) no-repeat;
+    font-size: 24;
+    font-style: normal;
+    color: white;
+    height: 800;
+    width: 1300;
+}
+
+.online {
+    background: url(zamov.jpg) no-repeat;
+    margin: 0 auto;
+    height: 800;
+    width: 1300;
+}
+
+.contact {
+    height: 800;
+    width: 1300;
+    background-image: url(conttt.jpg);
+}
+
+.footer {
+    min-height: 50px;
+    color: blue;
+    background: #34495e;
+}
