@@ -193,14 +193,14 @@ shape:hover .overlay {
     height: 700px;
     background: url(zamov.jpg);
     text-align: center;
-    color: white;
+    color:white;
     margin: 0 auto;
     padding-top: middle;
 }
 
 .zamov input {
     background: #f5fffa;
-    color: #fafad2;
+    color:black;
     border-radius: 3px;
     font-size: 20px;
     font-family: Arrial serif;
