@@ -1,5 +1,5 @@
 body {
-    margin: auto;
+    margin:40px auto;
     width: 1200px;
 }
 
@@ -65,6 +65,7 @@ nav a:hover {
     width: 1200px;
     height: 700px;
     background-size: cover;
+    margin:40px auto;
 }
 
 
@@ -77,11 +78,12 @@ nav a:hover {
     background: black;
     width: 100%;
     height: 2000px;
-    margin: 0;
+  
     opacity: 1;
     padding: auto;
     top: 0;
    background-size: cover;
+ margin:40px auto;
 }
 
 section {
@@ -180,6 +182,7 @@ shape:hover .overlay {
     font-size: 20px;
     font-family: sans-serif;
     background-size: cover;
+     margin:40px auto;
 }
 
 .about p {
@@ -198,7 +201,7 @@ shape:hover .overlay {
     background: url(dfg.jpg);
     width: 1200px;
     height: 700px;
-    margin: 0;
+    margin:40px auto;
     background-size: cover;
 }
 
@@ -244,7 +247,7 @@ shape:hover .overlay {
     background-color: red;
     text-align: center;
     color: yellow;
-    margin: 0 auto;
+    margin: 40px auto;
     padding-top: 70px;
     background-size: cover;
 }
@@ -292,4 +295,5 @@ shape:hover .overlay {
     text-align: center;
     padding-top: 16%;
     background-size: cover;
+     margin:40px auto;
 }
