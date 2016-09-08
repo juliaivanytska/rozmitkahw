@@ -1,7 +1,6 @@
 body {
     margin: auto;
     width: 1200px;
-    
 }
 
 
@@ -15,7 +14,7 @@ body {
     z-index: 120;
     position: fixed;
     width: 1200px;
-    height: 12%;
+    height: 13%;
     color: white;
     top: 0;
     opacity: 1;
@@ -23,22 +22,22 @@ body {
 }
 
 nav {
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
+    -webkit-margin-before: 0 em;
+    -webkit-margin-after: 0 em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+    -webkit-padding-start: 200px;
 }
 
 nav a:link {
     background: #fff0f5;
-    font-size: 18px;
+    font-size: 20px;
     font-family: serif;
     border-radius: 2px;
     list-style-type: none;
     box-shadow: 2px 2px 4px rgba(0, 0, 5, 0.2);
     transition-duration: 200ms;
-    color:blue;
+    color: blue;
     text-decoration: none;
     margin-bottom: 25px;
     padding: 13px;
@@ -47,7 +46,7 @@ nav a:link {
 nav a:hover {
     background-color: #ff8c00;
     color: #f5f5f5;
-    transform: rotate(40deg);
+    transform: rotate(60deg);
     ;
 }
 
@@ -65,7 +64,7 @@ nav a:hover {
     background: url(conttt.jpg);
     width: 1200px;
     height: 700px;
-    top: 0;
+    top: 200px;
 }
 
 
@@ -80,6 +79,9 @@ nav a:hover {
     height: 2000px;
     margin: 0;
     opacity: 1;
+    padding: auto;
+
+    top: 0;
 }
 
 section {
@@ -153,9 +155,14 @@ shape:hover .overlay {
     transform: scale(2);
 }
 
-.overlay.round {
-    background-image: url("");
-}
+
+/*.overlay.round {*/
+
+
+/*    background-image: url("");*/
+
+
+/*}*/
 
 
 /*----------------------------------------------------------------------------*/
@@ -168,45 +175,110 @@ shape:hover .overlay {
     text-align: center;
     width: 1200px;
     height: 700px;
-    margin: 0;
-    padding-top: 22%;
+    padding: auto;
     color: white;
     font-size: 20px;
     font-family: sans-serif;
 }
 
+.about p {
+    padding: top;
+    padding-top: 200px;
+}
+
+
 /*--------------------------------------------------------------------------*/
+
+
 /*autoservis page*/
 
 .autoserv {
+    padding-top: 70px;
     background: url(dfg.jpg)no-repeat;
     width: 1200px;
     height: 700px;
     margin: 0;
 }
 
+.autoserv select {
+    background: #fff0f5;
+    font-size: 24px;
+    font-family: serif;
+    border-radius: 4px;
+    list-style-type: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 5, 0.2);
+    transition-duration: 200ms;
+    color: #696969;
+    text-decoration: none;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 4px;
+}
+
+.avtoserv option {
+    background: #fff0f5;
+    font-size: 16px;
+    font-family: serif;
+    border-radius: 2px;
+    list-style-type: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 5, 0.2);
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 4px;
+}
+
+
 /*--------------------------------------------------------------------------*/
+
+
 /*online zamov*/
 
 .zamov {
     width: 1200px;
     height: 700px;
     background: url(zamov.jpg);
+    background-color: red;
     text-align: center;
-    color:white;
+    color: yellow;
     margin: 0 auto;
-    padding-top: middle;
+    padding-top: 70px;
 }
 
 .zamov input {
-    background: #f5fffa;
-    color:black;
+    background: orange;
+    color: black;
     border-radius: 3px;
     font-size: 20px;
     font-family: Arrial serif;
+    padding: auto;
 }
 
+#knopka:link {
+    font-size: 18px;
+    font-family: serif;
+    border-radius: 2px;
+    list-style-type: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 5, 0.2);
+    transition-duration: 200ms;
+    color: blue;
+    /*text-decoration: none;*/
+    margin-bottom: 25px;
+    padding: 13px;
+}
+
+#knopka:hover {
+    background: white;
+    color: red;
+    transform: rotate(15deg);
+    ;
+}
+
+
 /*---------------------------------------------------------------------------*/
+
+
 /*Contact page*/
 
 .contact {
@@ -216,5 +288,4 @@ shape:hover .overlay {
     color: white;
     text-align: center;
     padding-top: 16%;
-    
 }
