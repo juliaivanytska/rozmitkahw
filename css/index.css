@@ -64,7 +64,7 @@ nav a:hover {
     background: url(conttt.jpg);
     width: 1200px;
     height: 700px;
-    top: 200px;
+    background-size: cover;
 }
 
 
@@ -80,8 +80,8 @@ nav a:hover {
     margin: 0;
     opacity: 1;
     padding: auto;
-
     top: 0;
+   background-size: cover;
 }
 
 section {
@@ -171,7 +171,7 @@ shape:hover .overlay {
 /*about page*/
 
 .about {
-    background: url(about.jpg)no-repeat;
+    background: url(about.jpg);
     text-align: center;
     width: 1200px;
     height: 700px;
@@ -179,6 +179,7 @@ shape:hover .overlay {
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    background-size: cover;
 }
 
 .about p {
@@ -194,10 +195,11 @@ shape:hover .overlay {
 
 .autoserv {
     padding-top: 70px;
-    background: url(dfg.jpg)no-repeat;
+    background: url(dfg.jpg);
     width: 1200px;
     height: 700px;
     margin: 0;
+    background-size: cover;
 }
 
 .autoserv select {
@@ -244,6 +246,7 @@ shape:hover .overlay {
     color: yellow;
     margin: 0 auto;
     padding-top: 70px;
+    background-size: cover;
 }
 
 .zamov input {
@@ -282,10 +285,11 @@ shape:hover .overlay {
 /*Contact page*/
 
 .contact {
-    background: url(conttt.jpg) no-repeat;
+    background: url(conttt.jpg);
     width: 1200px;
     height: 700px;
     color: white;
     text-align: center;
     padding-top: 16%;
+    background-size: cover;
 }
