@@ -1,8 +1,12 @@
 body {
-    margin:40px auto;
-    width: 1200px;
+ text-align:center;
+   
 }
-
+#wrap{
+   width:1200px; 
+   margin:0 auto; 
+        
+}
 
 /*Header*/
 
@@ -20,15 +24,6 @@ body {
     opacity: 1;
     clear: both;
 }
-
-nav {
-    -webkit-margin-before: 0 em;
-    -webkit-margin-after: 0 em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 200px;
-}
-
 nav a:link {
     background: #fff0f5;
     font-size: 20px;
@@ -42,14 +37,18 @@ nav a:link {
     margin-bottom: 25px;
     padding: 13px;
 }
-
 nav a:hover {
     background-color: #ff8c00;
     color: #f5f5f5;
     transform: rotate(60deg);
     ;
 }
-
+#menu ul,
+#menu li{display:inline-block;
+         margin:0;
+         padding:0;
+         list-style-type:none;
+}
 #slog {
     text-align: center;
 }
@@ -61,11 +60,11 @@ nav a:hover {
 /*Main page*/
 
 .main {
-    background: url(conttt.jpg);
+    background: url(pictures/fon.jpg);
     width: 1200px;
     height: 700px;
     background-size: cover;
-    margin:40px auto;
+   
 }
 
 
@@ -78,18 +77,19 @@ nav a:hover {
     background: black;
     width: 100%;
     height: 2000px;
-  
     opacity: 1;
-    padding: auto;
-    top: 0;
-   background-size: cover;
- margin:40px auto;
+    
+    background-size: cover;
+    
 }
 
 section {
     display: inline-block;
-    margin-top: 10px;
+    
 }
+.shape.renault,
+.shape.citroen,
+.shape.peuguot{margin:0 auto;}
 
 .shape {
     position: relative;
@@ -118,24 +118,24 @@ section {
 
 .details p {
     width: 60%;
-    margin: 10px auto;
+    
     line-height: 1.4;
 }
 
 .shape.citroen {
-    background: url("CITROEN.png") no-repeat;
+    background: url("pictures/CITROEN.png") no-repeat;
 }
 
 .shape.renault {
-    background: url("Renault.png") no-repeat;
+    background: url("pictures/Renault.png") no-repeat;
 }
 
 .shape.peugeot {
-    background: url("peugeout.png") no-repeat;
+    background: url("pictures/peugeot.png") no-repeat;
 }
 
 .shape:hover .details {
-    display: block;
+    display:inline-block;
 }
 
 .overlay {
@@ -173,7 +173,7 @@ shape:hover .overlay {
 /*about page*/
 
 .about {
-    background: url(about.jpg);
+    background: url(pictures/about.jpg);
     text-align: center;
     width: 1200px;
     height: 700px;
@@ -182,7 +182,7 @@ shape:hover .overlay {
     font-size: 20px;
     font-family: sans-serif;
     background-size: cover;
-     margin:40px auto;
+    
 }
 
 .about p {
@@ -198,10 +198,10 @@ shape:hover .overlay {
 
 .autoserv {
     padding-top: 70px;
-    background: url(dfg.jpg);
+    background: url(pictures/dfg.jpg);
     width: 1200px;
     height: 700px;
-    margin:40px auto;
+    
     background-size: cover;
 }
 
@@ -243,11 +243,11 @@ shape:hover .overlay {
 .zamov {
     width: 1200px;
     height: 700px;
-    background: url(zamov.jpg);
+    background: url(pictures/zamov.jpg);
     background-color: red;
     text-align: center;
     color: yellow;
-    margin: 40px auto;
+   
     padding-top: 70px;
     background-size: cover;
 }
@@ -288,12 +288,13 @@ shape:hover .overlay {
 /*Contact page*/
 
 .contact {
-    background: url(conttt.jpg);
+    background: url(pictures/fon.jpg);
     width: 1200px;
     height: 700px;
     color: white;
     text-align: center;
     padding-top: 16%;
     background-size: cover;
-     margin:40px auto;
 }
+
+/*-----------------------------------------------------------------------------*/

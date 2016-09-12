@@ -1,8 +1,22 @@
+// При відправці форми сторінка не перезапускається
 $ (function () {
     $('#knopka').click(sendForm);
    
 });
     function sendForm(e) {e.preventDefault();
+    if( (!$('#marka').val())||
+        (  !$('#model').val())||
+         ( !$('#year').val())||
+          ( !$('#v3').val())||
+          ( !$('#korobka').val())||
+           (!$('#user_name').val())||
+          ( !$('#emaill').val())||
+          ( !$('#phone_number').val())
+          )
+           
+           {alert('Please fill required fields!');
+               return;
+           }
        $.ajax({
           url:"https://formspree.io/juliaivanytska15@gmail.com",
           method:"POST",

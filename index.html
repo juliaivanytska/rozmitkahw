@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="css/index.css">
     <!--<link rel="stylesheet" href="mobile/mobile.css" type="text/css" />-->
     <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/nav.css" type="text/css" />
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
     <title>Все для твого автомобіля</title>
 </head>
 
@@ -23,26 +24,26 @@
 
                 <h3 id="slog">Ми допоможемо втілити Вашу мрію в життя!</h3>
 
-                <nav class="menu">
-                    <a href="#golovna">Головна</a>
-                    <a href="#showroom">Автосалон</a>
-                    <a href="#autoservis">Автосервіс</a>
-                    <a href="#online_zamov">Онлайн замовлення</a>
-                    <a href="#about_us">Про нас</a>
-                    <a href="#contacts">Контакти</a>
-
+                <nav id="menu">
+                    <ul>
+                        <li> <a href="#golovna">Головна</a></li>
+                        <li> <a href="#showroom">Автосалон</a></li>
+                        <li> <a href="#autoservis">Автосервіс</a></li>
+                        <li> <a href="#online_zamov">Онлайн замовлення</a></li>
+                        <li> <a href="#about_us">Про нас</a></li>
+                        <li> <a href="#contacts">Контакти</a></li>
+                    </ul>
                 </nav>
 
             </div>
         </header>
         <div class="content">
-           <div>
-                <section class="main">
-                    <div id="golovna">
-                    </div>
+            <div id="contentt">
+                <section class="main" id="golovna">
                 </section>
-                <section class="auto">
-                    <h3 id="showroom">Автосалон</h3>
+                <div class="separator"></div>
+                <section class="auto" id="showroom">
+                    <h3>Автосалон</h3>
                     <section class="shape renault">
                         <a class="overlay round" href="#">Маска</a>
                         <div class="details bg">
@@ -67,24 +68,24 @@
 
                     </section>
                     <div class="foto">
-                        <img src="1R.jpg" alt="">
-                        <img src="2R.jpg" alt="">
-                        <img src="3R.jpg" alt="">
-                        <img src="4R.jpg" alt="">
-                        <img src="5R.jpg" alt="">
-                        <img src="1o.jpg" alt="">
-                        <img src="2o.jpg" alt="">
-                        <img src="3o.jpg" alt="">
+                        <img src="pictures/1R.jpg" alt="">
+                        <img src="pictures/2R.jpg" alt="">
+                        <img src="pictures/3R.jpg" alt="">
+                        <img src="pictures/4R.jpg" alt="">
+                        <img src="pictures/5R.jpg" alt="">
+                        <img src="pictures/1o.jpg" alt="">
+                        <img src="pictures/2o.jpg" alt="">
+                        <img src="pictures/3o.jpg" alt="">
                     </div>
                 </section>
-
+                <div class="separator"></div>
             </div>
         </div>
 
 
 
-        <section class="autoserv">
-            <h1 id="autoservis"> Автосервіс</h1>
+        <section class="autoserv" id="autoservis">
+            <h1> Автосервіс</h1>
             <select name="Ходова" size="1">
         <option value=" ">Діагностика ходової</option>
         <option value=" ">Ремонт ходової</option>
@@ -108,8 +109,9 @@
         
     </select>
         </section>
-        <section class="zamov">
-            <h2 id="online_zamov">Онлайн замовлення</h2>
+        <div class="separator"></div>
+        <section class="zamov" id="online_zamov">
+            <h2>Онлайн замовлення</h2>
             <p id="thanks"></p>
             <form action="https://formspree.io/juliaivanytska15@gmail.com" method="POST" class="right-column">
 
@@ -150,14 +152,16 @@
                 <br> Подорожуйте впевнено власним автомобілем,<br> а " DREAM " попіклується про Ваш комфорт.<br> Ми пропонуємо високоякісні послуги<br> на будь-який гаманець і бажання!
             </p>
         </section>
+        <div class="separator"></div>
         <br>
-        <div class="contact" id="contacts">
+        <section class="separator" id="contacts">
+            <div class="contact">
 
-            <p>+38067*******</p>
-            <p>Місто:</p>
-            <p>Вулиця:</p><br>
-        </div>
-
+                <p>+38067*******</p>
+                <p>Місто:</p>
+                <p>Вулиця:</p><br>
+            </div>
+        </section>
         <footer>
             <a href="https://www.facebook.com/julia.ivanytska">Site designed and developed by Yuliya Ivanytska</a>
         </footer>
@@ -170,8 +174,11 @@
 
     <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/index.js"></script>>
+    <script type="text/javascript" src="libs/jquery/PageScroll2id/PageScroll2id.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
 </body>
 
 </html>
