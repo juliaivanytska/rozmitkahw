@@ -80,9 +80,11 @@ nav a:hover {
 .auto {
     background: black;
     width: 100%;
-    height: 2000px;
+    height: 2500px;
     opacity: 1;
     background-size: cover;
+    color:white;
+    text-align: center;
 }
 
 section {
@@ -134,7 +136,8 @@ section {
 }
 
 .shape.peugeot {
-    background: url("pictures/peugeot.png") no-repeat;
+    
+    background: url("pictures/peugeot.jpg") no-repeat;
 }
 
 .shape:hover .details {
@@ -298,4 +301,4 @@ shape:hover .overlay {
 }
 
 
-/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*5
